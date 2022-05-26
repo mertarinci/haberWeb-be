@@ -19,4 +19,4 @@ app.use("/api/auth", authRoutes);
 
 const port = process.env.PORT || 8080;
 const ip = process.env.IP
-app.listen(port,ip,console.log(`Listening on port http://${ip}:${port}`));
+app.listen(port,console.log(`Listening on port http://${ip}:${port}`));
